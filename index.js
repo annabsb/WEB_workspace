@@ -35,3 +35,4 @@ db.on('error', (error) => {
 db.once('connected', () => {
  console.log('Database Connected');
 })
+module.exports = app;
